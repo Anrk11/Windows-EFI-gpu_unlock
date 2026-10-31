@@ -1,0 +1,1 @@
+PASS: 7 Windows loader cases, exact partition/file, duplicate/invalid paths and wrong image device

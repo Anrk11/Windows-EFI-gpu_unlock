@@ -1,0 +1,109 @@
+{
+  "VerifiedUtc": "2026-10-31T06:13:28.8616480Z",
+  "TestVersion": 10,
+  "HardwareUnlockExecuted": true,
+  "CoreSucceeded": true,
+  "CurrentBootVerified": true,
+  "WindowsDriverHealthy": true,
+  "PerformanceImprovementVerified": true,
+  "HardwareScope": "one captured X99-XD3 / GA106 2503 machine, this boot",
+  "CorrectnessScope": "top-left 16x16 tile against CPU float64 with full K",
+  "LongTermStabilityTested": false,
+  "EfiSha256": "cae0fe2d5e965d5fb79d6541de568ad53e04fd794a8f7106a3985254821d3c71",
+  "LogSha256": "b65a463a2069d754665ab7937e744d379108df4444abd4f990441429cf8229b2",
+  "BeforeSha256": "876e12c0847788cd67bae2839d73146994a167392fa9b01182065dcd992251c4",
+  "AfterSha256": "93157b28241c3b24df8caaf1337e87fa0314d7a5616d930f77f0ae0457bae62d",
+  "SameScript": true,
+  "SameDriverAndPowerSettings": true,
+  "GpuSettings": [
+    "NVIDIA GeForce RTX 3060",
+    "0x250310DE",
+    "00000000:07:00.0",
+    "581.80",
+    "170.00",
+    "2130",
+    "7501"
+  ],
+  "Results": [
+    {
+      "Mode": "fp16_float32_output",
+      "MatrixSize": 4096,
+      "BeforeTflops": 19.98179616942554,
+      "AfterTflops": 37.09506880522191,
+      "GainPercent": 85.64431590980625,
+      "Ratio": 1.8564431590980626,
+      "BeforeTrials": [
+        19.98179616942554,
+        19.9559398342743,
+        20.553722549460915
+      ],
+      "AfterTrials": [
+        36.69456859370063,
+        37.09506880522191,
+        37.22170040661542
+      ],
+      "ReferenceChecked": true,
+      "MaximumTileAbsoluteError": 1.1940948496658166E-07
+    },
+    {
+      "Mode": "fp16_float32_output",
+      "MatrixSize": 8192,
+      "BeforeTflops": 22.933148320976496,
+      "AfterTflops": 39.233345274291906,
+      "GainPercent": 71.07701361005869,
+      "Ratio": 1.710770136100587,
+      "BeforeTrials": [
+        22.933148320976496,
+        22.68346265519077,
+        23.044503100599087
+      ],
+      "AfterTrials": [
+        39.333507884337905,
+        39.233345274291906,
+        38.658436660885386
+      ],
+      "ReferenceChecked": true,
+      "MaximumTileAbsoluteError": 4.082638440650044E-07
+    },
+    {
+      "Mode": "bf16_float32_output",
+      "MatrixSize": 4096,
+      "BeforeTflops": 21.755394071070096,
+      "AfterTflops": 38.866510942603114,
+      "GainPercent": 78.65229568186518,
+      "Ratio": 1.7865229568186518,
+      "BeforeTrials": [
+        21.755394071070096,
+        21.884871538842702,
+        21.629182048010325
+      ],
+      "AfterTrials": [
+        38.786764841077115,
+        40.773355967429076,
+        38.866510942603114
+      ],
+      "ReferenceChecked": true,
+      "MaximumTileAbsoluteError": 9.765017239260487E-08
+    },
+    {
+      "Mode": "bf16_float32_output",
+      "MatrixSize": 8192,
+      "BeforeTflops": 22.91094810357974,
+      "AfterTflops": 40.03511497835994,
+      "GainPercent": 74.74228826045231,
+      "Ratio": 1.747422882604523,
+      "BeforeTrials": [
+        20.7701485924967,
+        22.943832805748062,
+        22.91094810357974
+      ],
+      "AfterTrials": [
+        39.62600188113097,
+        40.03511497835994,
+        40.218189028187574
+      ],
+      "ReferenceChecked": true,
+      "MaximumTileAbsoluteError": 3.33652508288651E-07
+    }
+  ]
+}

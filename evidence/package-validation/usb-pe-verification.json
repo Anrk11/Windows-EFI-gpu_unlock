@@ -1,0 +1,14 @@
+{
+  "path": "UNLOCK.EFI",
+  "bytes": 73216,
+  "sha256": "cae0fe2d5e965d5fb79d6541de568ad53e04fd794a8f7106a3985254821d3c71",
+  "machine": "AMD64",
+  "subsystem": 10,
+  "entry": "efi_main",
+  "entry_rva": 4303,
+  "imports": 0,
+  "iat": 0,
+  "delay_imports": 0,
+  "nx": true,
+  "dynamic_base": true
+}

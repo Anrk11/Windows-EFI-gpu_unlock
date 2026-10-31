@@ -1,0 +1,6 @@
+# Preserve original mixed line endings: release/source hashes are byte-exact.
+* -text
+tools/*.sh text eol=lf
+tools/*.py text eol=lf
+docs/*.md text eol=lf
+README.md text eol=lf

@@ -1,0 +1,12 @@
+{
+  "direct_base": {
+    "url": "https://github.com/impacifist/Windows-GPU-UNLOCK",
+    "commit": "1f8776ee9c6ee32f5920adaa4baabc9181379bd4"
+  },
+  "firmware_tools": {
+    "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+    "commit": "4e7fefcc4923f9e083d5324dc75a7d2f906af77f"
+  },
+  "edk2_commit": "c1415771ac592ad8509351c46cd3cda4f38d7d52",
+  "scope": "Single captured X99-XD3 / GA106 2503 system; not a universal profile"
+}

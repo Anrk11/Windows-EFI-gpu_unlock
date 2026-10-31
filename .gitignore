@@ -1,0 +1,19 @@
+# Local firmware, captures and build products never belong in the public repo.
+/local/
+/build/
+**/__pycache__/
+*.pyc
+*.obj
+*.map
+*.pdb
+*.zip
+*.tar.*
+*.BIN
+*.bin
+*.local.json
+**/build/
+**/build-auto/
+**/build-unlock/
+.env*
+*.key
+*.pem

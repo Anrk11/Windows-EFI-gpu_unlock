@@ -1,0 +1,14 @@
+{
+  "path": "AUTO.EFI",
+  "bytes": 74240,
+  "sha256": "a5b5dc610f6423c7c436658c2943593286dbd7d6c623c0e218f369b43166c051",
+  "machine": "AMD64",
+  "subsystem": 10,
+  "entry": "efi_main",
+  "entry_rva": 4303,
+  "imports": 0,
+  "iat": 0,
+  "delay_imports": 0,
+  "nx": true,
+  "dynamic_base": true
+}

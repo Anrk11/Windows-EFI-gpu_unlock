@@ -1,0 +1,9 @@
+{
+  "CapturedUtc": "2026-10-31T07:06:14.1985014Z",
+  "Boot": "2026-10-31T14:08:17.5000000+08:00",
+  "UserReportedTrainingMinutes": "approximately 60",
+  "UserReportedTrainingAccuracyNormal": true,
+  "MatchingSystemErrorCount": 0,
+  "MatchingSystemErrors": [],
+  "Scope": "user training report plus system events; not an independent full training-output audit"
+}

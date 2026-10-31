@@ -1,0 +1,253 @@
+EFI integration success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration post-flr-gfw-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration bme-readback-failure: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration mmio-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flush-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flr-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration unmap-failure: result=-71 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration map-failure: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration partial-map: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration pci-restore-failure: result=-19 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration display-changed: result=-16 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-lost: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration fwsec-halted-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-running-then-halt: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-prestart-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration fwsec-posthalt-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration pio-unavailable-fwsec-success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration pio-unavailable-fwsec-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-error-code: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration core-entry-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration core-entry-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration selector-entry-ss0: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-entry-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration pre-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration late-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration bridge-preflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration bridge-postflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+Post-core Windows commit 0: status=0 prepared=1 vga_calls=1 PASS
+Post-core Windows commit 1: status=8000000000000003 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 2: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 3: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 4: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 5: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 6: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 7: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 8: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 9: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 10: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 11: status=8000000000000006 prepared=0 vga_calls=0 PASS
+EFI integration success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration post-flr-gfw-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration bme-readback-failure: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration mmio-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flush-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flr-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration unmap-failure: result=-71 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration map-failure: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration partial-map: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration pci-restore-failure: result=-19 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration display-changed: result=-16 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-lost: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration fwsec-halted-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-running-then-halt: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-prestart-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration fwsec-posthalt-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration pio-unavailable-fwsec-success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration pio-unavailable-fwsec-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-error-code: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration core-entry-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration core-entry-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration selector-entry-ss0: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-entry-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration pre-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration late-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration bridge-preflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration bridge-postflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+Post-core Windows commit 0: status=0 prepared=1 vga_calls=1 PASS
+Post-core Windows commit 1: status=8000000000000003 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 2: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 3: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 4: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 5: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 6: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 7: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 8: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 9: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 10: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 11: status=8000000000000006 prepared=0 vga_calls=0 PASS
+EFI integration success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration post-flr-gfw-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration bme-readback-failure: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration mmio-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flush-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flr-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration unmap-failure: result=-71 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration map-failure: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration partial-map: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration pci-restore-failure: result=-19 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration display-changed: result=-16 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-lost: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration fwsec-halted-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-running-then-halt: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-prestart-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration fwsec-posthalt-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration pio-unavailable-fwsec-success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration pio-unavailable-fwsec-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-error-code: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration core-entry-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration core-entry-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration selector-entry-ss0: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-entry-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration pre-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration late-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration bridge-preflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration bridge-postflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+Post-core Windows commit 0: status=0 prepared=1 vga_calls=1 PASS
+Post-core Windows commit 1: status=8000000000000003 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 2: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 3: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 4: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 5: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 6: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 7: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 8: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 9: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 10: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 11: status=8000000000000006 prepared=0 vga_calls=0 PASS
+EFI integration success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration post-flr-gfw-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration bme-readback-failure: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration mmio-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flush-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flr-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration unmap-failure: result=-71 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration map-failure: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration partial-map: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration pci-restore-failure: result=-19 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration display-changed: result=-16 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-lost: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration fwsec-halted-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-running-then-halt: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-prestart-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration fwsec-posthalt-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration pio-unavailable-fwsec-success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration pio-unavailable-fwsec-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-error-code: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration core-entry-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration core-entry-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration selector-entry-ss0: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-entry-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration pre-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration late-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration bridge-preflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration bridge-postflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+Post-core Windows commit 0: status=0 prepared=1 vga_calls=1 PASS
+Post-core Windows commit 1: status=8000000000000003 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 2: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 3: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 4: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 5: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 6: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 7: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 8: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 9: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 10: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 11: status=8000000000000006 prepared=0 vga_calls=0 PASS
+EFI integration success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration post-flr-gfw-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration bme-readback-failure: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration mmio-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flush-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flr-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration unmap-failure: result=-71 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration map-failure: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration partial-map: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration pci-restore-failure: result=-19 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration display-changed: result=-16 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-lost: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration fwsec-halted-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-running-then-halt: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-prestart-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration fwsec-posthalt-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration pio-unavailable-fwsec-success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration pio-unavailable-fwsec-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-error-code: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration core-entry-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration core-entry-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration selector-entry-ss0: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-entry-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration pre-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration late-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration bridge-preflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration bridge-postflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+Post-core Windows commit 0: status=0 prepared=1 vga_calls=1 PASS
+Post-core Windows commit 1: status=8000000000000003 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 2: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 3: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 4: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 5: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 6: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 7: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 8: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 9: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 10: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 11: status=8000000000000006 prepared=0 vga_calls=0 PASS
+EFI integration success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration post-flr-gfw-timeout: result=-110 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration bme-readback-failure: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration mmio-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flush-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration flr-write-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration unmap-failure: result=-71 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration map-failure: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration partial-map: result=-12 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration pci-restore-failure: result=-19 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration display-changed: result=-16 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-lost: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=1 PASS
+EFI integration fwsec-halted-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-running-then-halt: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration fwsec-prestart-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=0/0 flr=0 PASS
+EFI integration fwsec-posthalt-snapshot-failure: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration pio-unavailable-fwsec-success: result=0 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+EFI integration pio-unavailable-fwsec-no-wpr: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration fwsec-error-code: result=-5 safe=0 retained=1 live_maps=20612 starts=1/0 flr=0 PASS
+EFI integration core-entry-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration core-entry-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss0: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration before-fw-ss1: result=-5 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration selector-entry-ss0: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration selector-entry-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration pre-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration late-flr-ss1: result=-5 safe=0 retained=1 live_maps=20612 starts=1/1 flr=0 PASS
+EFI integration bridge-preflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=0/0 flr=0 PASS
+EFI integration bridge-postflight-drift: result=-71 safe=1 retained=0 live_maps=0 starts=1/1 flr=1 PASS
+Post-core Windows commit 0: status=0 prepared=1 vga_calls=1 PASS
+Post-core Windows commit 1: status=8000000000000003 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 2: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 3: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 4: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 5: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 6: status=8000000000000007 prepared=0 vga_calls=1 PASS
+Post-core Windows commit 7: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 8: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 9: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 10: status=8000000000000006 prepared=0 vga_calls=0 PASS
+Post-core Windows commit 11: status=8000000000000006 prepared=0 vga_calls=0 PASS
+252 real core + compat + UEFI port scenarios passed; all PCI/MMIO/DMA/firmware execution simulated.

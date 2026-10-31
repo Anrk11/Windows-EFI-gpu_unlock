@@ -1,0 +1,1 @@
+PASS: 21 automatic activation and pending-state scenarios; no hardware accessed

@@ -1,0 +1,115 @@
+{
+  "protocol": 1,
+  "label": "stock",
+  "utc": "2026-10-30T15:36:43.900535+00:00",
+  "gpu_settings": [
+    "NVIDIA GeForce RTX 3060",
+    "0x250310DE",
+    "00000000:07:00.0",
+    "581.80",
+    "170.00",
+    "2130",
+    "7501"
+  ],
+  "initial_load": [
+    "19",
+    "392",
+    "28"
+  ],
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "script_sha256": "ed61bf858fe23ace5198d468ef0a3b88dd32c1244a1a9dec55d381737915d5d5",
+  "seed": 20261030,
+  "iterations": 10,
+  "trials": 3,
+  "float32_output": true,
+  "reduced_precision_reduction": false,
+  "tf32": false,
+  "desktop_active": true,
+  "correctness_scope": "top-left 16x16 tile against CPU float64 with full K",
+  "measurements": [
+    {
+      "mode": "fp16_float32_output",
+      "n": 4096,
+      "milliseconds": [
+        6.878208160400391,
+        6.887120056152344,
+        6.686815643310547
+      ],
+      "tflops": [
+        19.98179616942554,
+        19.9559398342743,
+        20.553722549460915
+      ],
+      "median_tflops": 19.98179616942554,
+      "reference_checked": true,
+      "maximum_tile_absolute_error": 1.1940948496658166e-07
+    },
+    {
+      "mode": "fp16_float32_output",
+      "n": 8192,
+      "milliseconds": [
+        47.944207763671876,
+        48.4719482421875,
+        47.71253356933594
+      ],
+      "tflops": [
+        22.933148320976496,
+        22.68346265519077,
+        23.044503100599087
+      ],
+      "median_tflops": 22.933148320976496,
+      "reference_checked": true,
+      "maximum_tile_absolute_error": 4.082638440650044e-07
+    },
+    {
+      "mode": "bf16_float32_output",
+      "n": 4096,
+      "milliseconds": [
+        6.317465591430664,
+        6.280089569091797,
+        6.354329681396484
+      ],
+      "tflops": [
+        21.755394071070096,
+        21.884871538842702,
+        21.629182048010325
+      ],
+      "median_tflops": 21.755394071070096,
+      "reference_checked": true,
+      "maximum_tile_absolute_error": 9.765017239260487e-08
+    },
+    {
+      "mode": "bf16_float32_output",
+      "n": 8192,
+      "milliseconds": [
+        52.937109375,
+        47.921881103515624,
+        47.990664672851565
+      ],
+      "tflops": [
+        20.7701485924967,
+        22.943832805748062,
+        22.91094810357974
+      ],
+      "median_tflops": 22.91094810357974,
+      "reference_checked": true,
+      "maximum_tile_absolute_error": 3.33652508288651e-07
+    }
+  ],
+  "complete": true,
+  "gpu_settings_after": [
+    "NVIDIA GeForce RTX 3060",
+    "0x250310DE",
+    "00000000:07:00.0",
+    "581.80",
+    "170.00",
+    "2130",
+    "7501"
+  ],
+  "final_load": [
+    "99",
+    "1330",
+    "35"
+  ]
+}

@@ -1,0 +1,1 @@
+PASS: 14 actual DMA-port scenarios; no device access, BME or firmware execution

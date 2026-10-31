@@ -1,0 +1,16 @@
+{
+  "ValidatedUtc": "2026-10-31T08:01:16.745758+00:00",
+  "UsbRebuildByteIdentical": true,
+  "AutoRebuildByteIdentical": true,
+  "PublicRamCasesPassed": 28,
+  "PowerShellConfirmationCasesPassed": 18,
+  "PowerShellBcdCasesPassed": 5,
+  "PackagedInstallerParsed": true,
+  "PackagedInstallerExecuted": false,
+  "FirmwarePreparationTestedOfflineAgainstPinnedCache": true,
+  "FirmwareAssetsVerified": 5,
+  "PrivateFirmwareIncludedInPublicTree": false,
+  "CurrentBootConfigurationModifiedByPackaging": false,
+  "FullAutoFixtureCasesRerunFromPackagedSources": 47,
+  "PrivateFixtureFilesIncludedInPublicTree": false
+}

@@ -1,0 +1,47 @@
+{
+  "VerifiedUtc": "2026-10-31T07:49:24.487707+00:00",
+  "HardwareAutoBootTested": true,
+  "CoreSucceeded": true,
+  "WindowsBootConfirmed": true,
+  "PerformanceVerified": true,
+  "UserReportsUsbAbsent": true,
+  "BootUtc": "2026-10-31T07:44:54.5000000Z",
+  "LogSha256": "516137ed7e5f0a6f726617e33849d64942743bc50e74c4fcb6cc6e723a140847",
+  "EfiSha256": "a5b5dc610f6423c7c436658c2943593286dbd7d6c623c0e218f369b43166c051",
+  "NextAutomaticBootArmed": true,
+  "NumericalScope": "top-left 16x16 tile against CPU float64 with full K",
+  "measurements": [
+    {
+      "mode": "fp16_float32_output",
+      "n": 4096,
+      "stock_tflops": 19.98179616942554,
+      "automatic_tflops": 36.44546711080162,
+      "gain_percent": 82.39334843464876,
+      "maximum_tile_absolute_error": 1.1940948496658166e-07
+    },
+    {
+      "mode": "fp16_float32_output",
+      "n": 8192,
+      "stock_tflops": 22.933148320976496,
+      "automatic_tflops": 38.58535870638022,
+      "gain_percent": 68.25146799005768,
+      "maximum_tile_absolute_error": 4.082638440650044e-07
+    },
+    {
+      "mode": "bf16_float32_output",
+      "n": 4096,
+      "stock_tflops": 21.755394071070096,
+      "automatic_tflops": 36.76795048107512,
+      "gain_percent": 69.00613411534766,
+      "maximum_tile_absolute_error": 9.765017239260487e-08
+    },
+    {
+      "mode": "bf16_float32_output",
+      "n": 8192,
+      "stock_tflops": 22.91094810357974,
+      "automatic_tflops": 38.51985690508752,
+      "gain_percent": 68.12860267039301,
+      "maximum_tile_absolute_error": 3.33652508288651e-07
+    }
+  ]
+}

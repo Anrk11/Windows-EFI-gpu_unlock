@@ -1,0 +1,23 @@
+{
+  "StartedUtc": "2026-10-31T07:45:25.2021983Z",
+  "FinishedUtc": "2026-10-31T07:45:26.5831988Z",
+  "BootUtc": "2026-10-31T07:44:54.5000000Z",
+  "Confirmed": true,
+  "Ready": true,
+  "Reason": "current-boot-driver-healthy-log-archived-next-boot-armed",
+  "ImageSha256": "a5b5dc610f6423c7c436658c2943593286dbd7d6c623c0e218f369b43166c051",
+  "LogSha256": "516137ed7e5f0a6f726617e33849d64942743bc50e74c4fcb6cc6e723a140847",
+  "PerformanceMeasured": false,
+  "NvidiaSmi": {
+    "ExitCode": 0,
+    "Output": "0x250310DE, 00000000:07:00.0, 581.80",
+    "Error": ""
+  },
+  "GpuProblemCodes": [
+    0
+  ],
+  "RedactedFields": [
+    "LogArchive absolute path",
+    "PnP instance identifier"
+  ]
+}
